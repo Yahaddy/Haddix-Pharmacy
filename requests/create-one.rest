@@ -2,9 +2,9 @@ POST http://localhost:3001/api/user HTTP/1.1
 content-type: application/json 
 
 {
-  "email": "ac@camariana.gm",
-  "password": "secret",
-  "firstname": "A",
+  "email": "yahaddykasseh@gmail.com",
+  "password": "haddix",
+  "firstname": "ya haddy",
   "minit": "",
-  "lastname": "Camariana"
+  "lastname": "kasseh"
 }
