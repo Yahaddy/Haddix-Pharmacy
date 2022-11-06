@@ -2,9 +2,20 @@ POST http://localhost:3001/api/user HTTP/1.1
 content-type: application/json 
 
 {
-  "email": "idabob@gmail.com",
-  "password": "eda",
-  "firstname": "ida",
-  "minit": "",
-  "lastname": "fofana"
+  "email": "kassehbby@gmail.com",
+  "password": "faa",
+  "firstname": "Aji Faa",
+  "minit": "F",
+  "lastname": "Kasseh"
+}
+
+###
+POST http://localhost:3001/api/sale HTTP/1.1
+content-type: application/json 
+
+{
+  "description": "drugs",
+  "qty": 10,
+  "price": 50,
+  "user": "6367ce9725997f338f7ddd7d"
 }
