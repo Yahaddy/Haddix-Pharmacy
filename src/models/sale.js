@@ -20,6 +20,12 @@ const mongoose = require('mongoose')
     trim: true,
  },
 
+   Total: {
+  type: Number,
+  required: true,
+  trim: true,
+},
+
  user: {
     type: mongoose.Schema.Types.ObjectId,
     ref: 'user'
@@ -36,6 +42,7 @@ const mongoose = require('mongoose')
       delete returnedObject.__v
     }
   })
+
  
  
  const sale = mongoose.model('sale', saleSchema)

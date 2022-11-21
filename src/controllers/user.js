@@ -1,5 +1,6 @@
 const User = require('../models/user');
 
+
 const createUser = async (req, res) => {
   const content = req.body;
   console.log(content);
