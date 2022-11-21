@@ -9,3 +9,14 @@ content-type: application/json
   "role": "Admin"
 }
 
+
+### sale
+PUT http://localhost:3001/api/sale/637b77c9e30f23ee7a56c3d1
+content-type: application/json
+{
+  "description": "Aspirin",
+  "Quantity": 25,
+  "price": 200,
+  "Total": 5000,
+  "userId": "63795a784e27e89bfd14a38a"
+}
